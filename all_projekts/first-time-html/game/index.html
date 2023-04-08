@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+var game = document.createElement('div');
+game.innerHTML = '<div id="game"></div>';
+document.body.appendChild(game);
+
+var game = document.getElementById('game');
+var game_width = game.offsetWidth;
+var game_height = game.offsetHeight;
+
+var game_canvas = document.createElement('canvas');
+game_canvas.width = game_width;
+game_canvas.height = game_height;
+game.appendChild(game_canvas);
+
+var game_context = game_canvas.getContext('2d');
+
+var game_player = {
+  x: game_width / 2,
+  y: game_height / 2,
+  width: 10,
+  height: 10,
+  color: '#ff0000'
+};
+
+var game_player_speed = 5;
+
+var game_player_draw = function() {
+  game_context.fillStyle = game_player.color;
+  game_context.fillRect(game_player.x, game_player.y, game_player.width, game_player.height);
+};
+
+var game_player_move = function(x, y) {
+  game_player.x += x;
+  game_player.y += y;
+};
+
+var game_player_move_left = function() {
+  game_player_move(-game_player_speed, 0);
+};
+
+var game_player_move_right = function() {
+  game_player_move(game_player_speed, 0);
+};
+
+var game_player_move_up = function() {
+  game_player_move(0, -game_player_speed);
+};
+
+var game_player_move_down = function() {
+  game_player_move(0, game_player_speed);
+};
+
+var game_player_move_left_key = 37;
+var game_player_move_right_key = 39;
+var game_player_move_up_key = 38;
+var game_player_move_down_key = 40;
+
+var game_player_move_key_map = {};
+game_player_move_key_map[game_player_move_left_key] = game_player_move_left;
+game_player_move_key_map[game_player_move_right_key] = game_player_move_right;
+game_player_move_key_map[game_player_move_up_key] = game_player_move_up;
+game_player_move_key_map[game_player_move_down_key] = game_player_move_down;
+
+var game_player_move_key_down = function(event) {
+  var key = event.keyCode;
+  if (game_player_move_key_map[key]) {
+    game_player_move_key_map[key]();
+  }
+};
+
+var game_player_move_key_up = function(event) {
+  var key = event.keyCode;
+  if (game_player_move_key_map[key]) {
+    game_player_move_key_map[key]();
+  }
+};
+
+var game_player_move_key_press = function(event) {
+  var key = event.keyCode;
+  if (game_player_move_key_map[key]) {
+    game_player_move_key_map[key]();
+  }
+};
+
+var game_player_move_key_down_listener = function(event) {
+  game_player_move_key_down(event);
+};
+
+var game_player_move_key_up_listener = function(event) {
+  game_player_move_key_up(event);
+};
+
+var game_player_move_key_press_listener = function(event) {
+  game_player_move_key_press(event);
+};
+
+var game_player_move_key_down_listener_id = window.addEventListener('keydown', game_player_move_key_down_listener);
+var game_player_move_key_up_listener_id = window.addEventListener('keyup', game_player_)
+});
+        </script>
+    </head>
+    
+</html>
