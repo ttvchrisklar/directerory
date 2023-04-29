@@ -1,0 +1,125 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    padding: 1px;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body {
+    color: black;
+    background-color: white;
+}
+.div-head-element {
+    background-color: lightgray;
+    font-size: 32px;
+    position: absolute;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 80px;
+    border-radius: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.div-line {
+    background-color: lightgray;
+    position: absolute;
+    left: 875px;
+    display: flex;
+    justify-content: center;
+    width: 7px;
+    height: 1810px;
+}
+.div-introduction {
+    background-color: lightgray;
+    font-size: 28px;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.div-firstPeragraf {
+    background-color: lightgray;
+    font-size: 28px;
+    position: absolute;
+    top: 330px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.div-secondPeragraf {
+    background-color: lightgray;
+    font-size: 28px;
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 340px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.div-theerdPeragraf {
+    background-color: lightgray;
+    font-size: 28px;
+    position: absolute;
+    top: 970px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.div-sumery {
+    background-color: lightgray;
+    font-size: 28px;
+    position: absolute;
+    top: 1250px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 210px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.div-References {
+    background-color: lightgray;
+    font-size: 18px;
+    position: absolute;
+    top: 1490px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    width: 1075px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 20px;
+}
