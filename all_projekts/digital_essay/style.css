@@ -5,6 +5,8 @@ html {
     width: 100%;
     height: 900px;
     padding: 1px;
+    background-color: black;
+    opacity: 75%;
 }
 *,
 *:before,
@@ -16,6 +18,9 @@ html {
 body {
     color: black;
     background-color: white;
+}
+div {
+    opacity: 100%;
 }
 .div-head-element {
     background-color: lightgray;
