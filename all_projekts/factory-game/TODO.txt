@@ -1,0 +1,16 @@
+factory game:
+name?
+
+TODO:
+mony.
+resorese:
+    copper,
+    iron,
+    gold,
+    platinum,
+    wood,
+    stone,
+    oil.
+crafting using resorese.
+sell crafted matirials.
+automate crafting.

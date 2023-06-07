@@ -26,6 +26,7 @@ div {
     background-color: lightgray;
     font-size: 32px;
     position: absolute;
+    top: 60px;
     left: 500px;
     display: flex;
     justify-content: center;
@@ -43,6 +44,7 @@ p {
 .div-line {
     background-color: lightgray;
     position: absolute;
+    top: 60px;
     left: 875px;
     display: flex;
     justify-content: center;
@@ -53,7 +55,7 @@ p {
     background-color: lightgray;
     font-size: 28px;
     position: absolute;
-    top: 120px;
+    top: 160px;
     left: 350px;
     display: flex;
     justify-content: center;
@@ -67,7 +69,7 @@ p {
     background-color: lightgray;
     font-size: 28px;
     position: absolute;
-    top: 330px;
+    top: 360px;
     left: 350px;
     display: flex;
     justify-content: center;
@@ -80,7 +82,7 @@ p {
     background-color: lightgray;
     font-size: 28px;
     position: absolute;
-    top: 600px;
+    top: 620px;
     left: 350px;
     display: flex;
     justify-content: center;
@@ -93,7 +95,7 @@ p {
     background-color: lightgray;
     font-size: 28px;
     position: absolute;
-    top: 970px;
+    top: 990px;
     left: 350px;
     display: flex;
     justify-content: center;
@@ -106,7 +108,7 @@ p {
     background-color: lightgray;
     font-size: 28px;
     position: absolute;
-    top: 1250px;
+    top: 1260px;
     left: 350px;
     display: flex;
     justify-content: center;
