@@ -3,7 +3,7 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    height: 975px;
+    height: 969px;
     border: dotted red;
 }
 *,
@@ -19,12 +19,16 @@ body {
 }
 .div1,
 .div2,
-.spell-list {
+.resorese-list {
     background-color: white;
     border-radius: 10px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
 }
 .title {
-    left: 48%;
+    left: 40%;
     top: -30px;
     height: 50px;
     position: absolute;
@@ -35,31 +39,19 @@ body {
 .div1 {
     left: 0.4%;
     top: 0.5%;
-    position: absolute;
-    display: block;
     height: 99%;
     width: 10%;
     font-size: 40px;
-    text-align: center;
-    box-sizing: border-box;
 }
 .div2 {
     left: 89%;
     top: 0.5%;
-    position: absolute;
     height: 99%;
     width: 10%;
-    display: block;
-    text-align: center;
-    box-sizing: border-box;
 }
-.spell-list {
+.resorese-list {
     left: 78.7%;
     top: 0.5%;
-    position: absolute;
     height: 99%;
     width: 10%;
-    display: block;
-    text-align: center;
-    box-sizing: border-box;
 }
